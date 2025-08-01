@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Emergency fund for Atika's medical care and repatriation after severe brain hemorrhage in Turkey. Help bring her home to Morocco.">
+  
+  <!-- Open Graph / Facebook Meta Tags -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://helpmymother.org/">
+  <meta property="og:title" content="Help Bring Atika Home - Medical Emergency Fund">
+  <meta property="og:description" content="Support for Atika's medical care and repatriation after severe brain hemorrhage in Turkey. Every donation helps bring her home.">
+  <meta property="og:image" content="https://helpmymother.org/mamaandme.jpg">
+  
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Help Bring Atika Home - Medical Emergency Fund">
+  <meta name="twitter:description" content="Support for Atika's medical care and repatriation after severe brain hemorrhage in Turkey.">
+  <meta name="twitter:image" content="https://helpmymother.org/mamaandme.jpg">
+  
+  <title>Help Bring Atika Home – Medical Emergency Fund</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    /* ===== Modern CSS with Improved Design ===== */
+    :root {
+      --primary: #1a5f7a;
+      --primary-dark: #0f455c;
+      --secondary: #159895;
+      --accent: #57C5B6;
+      --light-accent: #e8f7f6;
+      --whatsapp: #25D366;
+      --whatsapp-dark: #128C7E;
+      --paypal: #0070ba;
+      --paypal-dark: #005ea6;
+      --text: #333;
+      --text-light: #555;
+      --light-bg: #f8f9fa;
+      --white: #ffffff;
+      --success: #28a745;
+      --warning: #ffc107;
+      --danger: #dc3545;
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.1);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.15);
+      --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.2);
+      --radius: 12px;
+      --radius-sm: 6px;
+      --transition: all 0.3s ease;
+      --max-width: 1200px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--light-bg);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      line-height: 1.3;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      position: relative;
+      padding-bottom: 0.75rem;
+    }
+
+    h2:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 80px;
+      height: 4px;
+      background: var(--secondary);
+      border-radius: 2px;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      color: var(--secondary);
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 1.25rem;
+      color: var(--text-light);
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    a:hover {
+      color: var(--primary-dark);
+    }
+
+    /* Layout */
+    .container {
+      width: 100%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      padding: 4rem 0;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .section-header h2 {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .section-header h2:after {
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    /* Header */
+    header {
+      background-color: var(--primary);
+      color: var(--white);
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--white);
+    }
+
+    .lang-switcher {
+      display: flex;
+      gap: 0.75rem;
+    }
+
+    .lang-btn {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      color: var(--white);
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      font-weight: 500;
+      transition: var(--transition);
+      font-size: 0.9rem;
+    }
+
+    .lang-btn:hover,
+    .lang-btn.active {
+      background: var(--accent);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      min-height: 700px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%);
+      z-index: 1;
+    }
+
+    .hero-image {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 800px;
+      padding: 2rem;
+      color: var(--white);
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    .hero-content h1 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .hero-content p {
+      font-size: 1.25rem;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 2.5rem;
+    }
+
+    /* Story Section */
+    .story-section {
+      background-color: var(--white);
+    }
+
+    .story-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+      align-items: center;
+    }
+
+    .story-content {
+      padding-right: 2rem;
+    }
+
+    .story-image {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+
+    .story-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    /* Medical Details */
+    .medical-details {
+      background-color: var(--light-accent);
+    }
+
+    .medical-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .medical-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+    }
+
+    .medical-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .medical-card h3 {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .medical-card h3 i {
+      color: var(--primary);
+      font-size: 1.5rem;
+    }
+
+    /* Timeline */
+    .timeline-section {
+      background-color: var(--white);
+    }
+
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: 0 auto;
+      padding-left: 2rem;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 30px;
+      top: 0;
+      bottom: 0;
+      width: 4px;
+      background: var(--secondary);
+      border-radius: 2px;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: 2.5rem;
+      padding-left: 3rem;
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline-date {
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-content {
+      background: var(--light-accent);
+      padding: 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .timeline-marker {
+      position: absolute;
+      left: 22px;
+      top: 0;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: var(--primary);
+      border: 4px solid var(--secondary);
+      z-index: 1;
+    }
+
+    /* Gallery */
+    .gallery-section {
+      background-color: var(--light-bg);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .gallery-item {
+      border-radius: var(--radius);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      position: relative;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0,0,0,0.7);
+      color: var(--white);
+      padding: 1rem;
+      transform: translateY(100%);
+      transition: var(--transition);
+    }
+
+    .gallery-item:hover .gallery-caption {
+      transform: translateY(0);
+    }
+
+    /* Documents */
+    .documents-section {
+      background-color: var(--white);
+    }
+
+    .documents-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .document-card {
+      border: 1px solid #eee;
+      border-radius: var(--radius);
+      overflow: hidden;
+      transition: var(--transition);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .document-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .document-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: contain;
+      background: var(--light-bg);
+      padding: 1rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .document-card .document-info {
+      padding: 1.5rem;
+    }
+
+    .document-card h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    /* Donation Section */
+    .donation-section {
+      background-color: var(--light-accent);
+    }
+
+    .donation-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .donation-options {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+    }
+
+    .donation-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2rem;
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition);
+      text-align: center;
+    }
+
+    .donation-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .donation-card h3 {
+      margin-bottom: 1.5rem;
+      color: var(--primary);
+    }
+
+    .donation-card img {
+      max-width: 180px;
+      height: auto;
+      margin: 0 auto 1.5rem;
+      display: block;
+    }
+
+    .donation-details {
+      text-align: left;
+      margin-top: 1.5rem;
+    }
+
+    .donation-details p {
+      margin-bottom: 0.75rem;
+    }
+
+    .donation-details strong {
+      color: var(--text);
+    }
+
+    /* Progress */
+    .progress-container {
+      background: var(--white);
+      padding: 3rem 2rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .progress-stats {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+    }
+
+    .progress-amount {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--primary);
+    }
+
+    .progress-goal {
+      font-size: 1.25rem;
+      color: var(--text-light);
+      align-self: flex-end;
+    }
+
+    .progress-bar-container {
+      height: 20px;
+      background: #e0e0e0;
+      border-radius: 10px;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: var(--secondary);
+      border-radius: 10px;
+      width: 0%;
+      transition: width 1s ease;
+      position: relative;
+    }
+
+    .progress-bar::after {
+      content: attr(data-progress);
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--white);
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    .progress-note {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      border-radius: 50px;
+      font-weight: 600;
+      text-align: center;
+      cursor: pointer;
+      transition: var(--transition);
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--white);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-secondary {
+      background: var(--secondary);
+      color: var(--white);
+    }
+
+    .btn-secondary:hover {
+      background: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-whatsapp {
+      background: var(--whatsapp);
+      color: var(--white);
+    }
+
+    .btn-whatsapp:hover {
+      background: var(--whatsapp-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-paypal {
+      background: var(--paypal);
+      color: var(--white);
+    }
+
+    .btn-paypal:hover {
+      background: var(--paypal-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-lg {
+      padding: 1rem 2.5rem;
+      font-size: 1.1rem;
+    }
+
+    /* Sticky WhatsApp */
+    .sticky-whatsapp {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 60px;
+      height: 60px;
+      background: var(--whatsapp);
+      color: var(--white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      box-shadow: var(--shadow-lg);
+      z-index: 999;
+      transition: var(--transition);
+      animation: pulse 2s infinite;
+    }
+
+    .sticky-whatsapp:hover {
+      transform: scale(1.1);
+      background: var(--whatsapp-dark);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+
+    /* Footer */
+    footer {
+      background: var(--primary);
+      color: var(--white);
+      padding: 3rem 0;
+      text-align: center;
+    }
+
+    .footer-content {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 1.5rem 0;
+    }
+
+    .footer-links a {
+      color: var(--white);
+      opacity: 0.8;
+    }
+
+    .footer-links a:hover {
+      opacity: 1;
+    }
+
+    .copyright {
+      opacity: 0.7;
+      font-size: 0.9rem;
+    }
+
+    /* Utility Classes */
+    .text-center {
+      text-align: center;
+    }
+
+    .text-primary {
+      color: var(--primary);
+    }
+
+    .text-secondary {
+      color: var(--secondary);
+    }
+
+    .mt-1 { margin-top: 1rem; }
+    .mt-2 { margin-top: 2rem; }
+    .mt-3 { margin-top: 3rem; }
+    .mb-1 { margin-bottom: 1rem; }
+    .mb-2 { margin-bottom: 2rem; }
+    .mb-3 { margin-bottom: 3rem; }
+
+    /* Responsive */
+    @media (max-width: 992px) {
+      .story-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .story-content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+      }
+      
+      .hero-content h1 {
+        font-size: 2.5rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        min-height: 600px;
+      }
+      
+      .hero-content h1 {
+        font-size: 2rem;
+      }
+      
+      .hero-content p {
+        font-size: 1.1rem;
+      }
+      
+      h1 {
+        font-size: 2rem;
+      }
+      
+      h2 {
+        font-size: 1.75rem;
+      }
+      
+      section {
+        padding: 3rem 0;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .header-container {
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      .hero {
+        min-height: 500px;
+      }
+      
+      .hero-content h1 {
+        font-size: 1.8rem;
+      }
+      
+      .donation-options {
+        grid-template-columns: 1fr;
+      }
+      
+      .progress-amount {
+        font-size: 2rem;
+      }
+    }
+
+    /* RTL Support */
+    [dir="rtl"] {
+      text-align: right;
+    }
+    
+    [dir="rtl"] .timeline {
+      padding-left: 0;
+      padding-right: 2rem;
+    }
+    
+    [dir="rtl"] .timeline::before {
+      left: auto;
+      right: 30px;
+    }
+    
+    [dir="rtl"] .timeline-item {
+      padding-left: 0;
+      padding-right: 3rem;
+    }
+    
+    [dir="rtl"] .timeline-marker {
+      left: auto;
+      right: 22px;
+    }
+    
+    [dir="rtl"] h2:after {
+      left: auto;
+      right: 0;
+    }
+    
+    [dir="rtl"] .section-header h2:after {
+      left: auto;
+      right: 50%;
+      transform: translateX(50%);
+    }
+    
+    [dir="rtl"] .donation-details {
+      text-align: right;
+    }
+
+    /* Accessibility */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border-width: 0;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--primary);
+      outline-offset: 3px;
+    }
+
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--primary);
+      color: white;
+      padding: 8px;
+      z-index: 1000;
+      transition: top 0.3s;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+
+<header>
+  <div class="header-container">
+    <a href="#" class="logo">Help Atika</a>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="en" aria-label="Switch to English">English</button>
+      <button class="lang-btn" data-lang="ar" aria-label="التبديل إلى العربية">العربية</button>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+  <img class="hero-image" src="mamaandme.jpg" alt="Atika with her son" loading="lazy">
+  <div class="hero-content">
+    <h1 class="lang-content lang-en active">Bring Atika Home</h1>
+    <h1 class="lang-content lang-ar" dir="rtl">أعيدوا عتيقة إلى المنزل</h1>
+    
+    <p class="lang-content lang-en active">Your support can help cover medical expenses and bring her back to Morocco for rehabilitation</p>
+    <p class="lang-content lang-ar" dir="rtl">دعمكم يمكن أن يساعد في تغطية النفقات الطبية وإعادتها إلى المغرب لإعادة التأهيل</p>
+    
+    <div class="mt-3">
+      <a href="#donate" class="btn btn-primary btn-lg lang-content lang-en active">Donate Now</a>
+      <a href="#donate" class="btn btn-primary btn-lg lang-content lang-ar" dir="rtl">تبرع الآن</a>
+    </div>
+  </div>
+</section>
+
+<main id="main-content">
+  <!-- Story Section -->
+  <section class="story-section">
+    <div class="container">
+      <div class="story-container">
+        <div class="story-content">
+          <h2 class="lang-content lang-en active">Atika's Story</h2>
+          <h2 class="lang-content lang-ar" dir="rtl">قصة عتيقة</h2>
+          
+          <div class="lang-content lang-en active">
+            <p><strong>My name is Khalid, and I'm fighting to bring my mother home.</strong> In August 2023, my mother Atika suffered a severe brain hemorrhage while visiting Turkey. This catastrophic event changed her life forever.</p>
+            
+            <p>After emergency brain surgery and a coma, she woke up paralyzed - unable to walk, speak, or eat independently. As an undocumented immigrant in Turkey, she receives minimal care with no rehabilitation.</p>
+            
+            <p>Despite contacting embassies, ministries, and authorities in both Morocco and Turkey, I've received no assistance. After months of bureaucratic dead-ends, I traveled to Turkey myself, fearing the worst.</p>
+            
+            <p>Now I'm turning to the kindness of strangers. Your donations will help cover:</p>
+            <ul style="margin-left: 1.5rem; margin-bottom: 1.5rem;">
+              <li>Medical repatriation to Morocco</li>
+              <li>Specialized neurological rehabilitation</li>
+              <li>Ongoing care and therapy</li>
+              <li>Medical equipment and supplies</li>
+            </ul>
+            
+            <p>With your help, we can give Atika the care she deserves and bring her home where she belongs.</p>
+          </div>
+          
+          <div class="lang-content lang-ar" dir="rtl">
+            <p><strong>اسمي خالد، وأنا أحارب لإعادة والدتي إلى المنزل.</strong> في أغسطس 2023، تعرضت والدتي عتيقة لنزيف دماغي حاد أثناء زيارتها لتركيا. هذا الحدث الكارثي غير حياتها إلى الأبد.</p>
+            
+            <p>بعد جراحة دماغية طارئة وغيبوبة، استيقظت مشلولة - غير قادرة على المشي أو الكلام أو الأكل بمفردها. كمهاجرة غير شرعية في تركيا، تتلقى الحد الأدنى من الرعاية دون أي إعادة تأهيل.</p>
+            
+            <p>على الرغم من الاتصال بالسفارات والوزارات والسلطات في المغرب وتركيا، لم أتلق أي مساعدة. بعد شهور من المطبات البيروقراطية، سافرت إلى تركيا بنفسي، خوفًا من الأسوأ.</p>
+            
+            <p>الآن ألجأ إلى لطف الغرباء. تبرعاتكم ستساعد في تغطية:</p>
+            <ul style="margin-right: 1.5rem; margin-bottom: 1.5rem;">
+              <li>الإعادة الطبية إلى المغرب</li>
+              <li>إعادة التأهيل العصبي المتخصص</li>
+              <li>الرعاية المستمرة والعلاج</li>
+              <li>المعدات الطبية والإمدادات</li>
+            </ul>
+            
+            <p>بمساعدتكم، يمكننا أن نقدم لعتيقة الرعاية التي تستحقها ونعيدها إلى المنزل حيث تنتمي.</p>
+          </div>
+          
+          <div class="mt-3">
+            <a href="#medical" class="btn btn-secondary lang-content lang-en active">Medical Details</a>
+            <a href="#medical" class="btn btn-secondary lang-content lang-ar" dir="rtl">التفاصيل الطبية</a>
+          </div>
+        </div>
+        
+        <div class="story-image">
+          <img src="mamaandme.jpg" alt="Atika with her son" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Medical Details -->
+  <section class="medical-details" id="medical">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="lang-content lang-en active">Medical Condition</h2>
+        <h2 class="lang-content lang-ar" dir="rtl">الحالة الطبية</h2>
+        <p class="lang-content lang-en active">Atika's diagnosis and current treatment needs</p>
+        <p class="lang-content lang-ar" dir="rtl">تشخيص عتيقة واحتياجات العلاج الحالية</p>
+      </div>
+      
+      <div class="medical-grid">
+        <div class="medical-card">
+          <h3><i class="fas fa-brain"></i> <span class="lang-content lang-en active">Diagnosis</span><span class="lang-content lang-ar" dir="rtl">التشخيص</span></h3>
+          <div class="lang-content lang-en active">
+            <p><strong>Severe brain hemorrhage</strong> resulting in:</p>
+            <ul style="margin-left: 1.5rem;">
+              <li>Right-sided hemiplegia (paralysis)</li>
+              <li>Aphasia (speech impairment)</li>
+              <li>Dysphagia (difficulty swallowing)</li>
+              <li>Cognitive impairments</li>
+            </ul>
+          </div>
+          <div class="lang-content lang-ar" dir="rtl">
+            <p><strong>نزيف دماغي حاد</strong> نتج عنه:</p>
+            <ul style="margin-right: 1.5rem;">
+              <li>شلل نصفي في الجانب الأيمن</li>
+              <li>حبسة (ضعف في الكلام)</li>
+              <li>عسر البلع</li>
+              <li>ضعف إدراكي</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="medical-card">
+          <h3><i class="fas fa-procedures"></i> <span class="lang-content lang-en active">Current Care</span><span class="lang-content lang-ar" dir="rtl">الرعاية الحالية</span></h3>
+          <div class="lang-content lang-en active">
+            <p>Currently in a Turkish care facility receiving:</p>
+            <ul style="margin-left: 1.5rem;">
+              <li>Basic nursing care</li>
+              <li>Nutrition via feeding tube</li>
+              <li>No specialized rehabilitation</li>
+              <li>Limited medical supervision</li>
+            </ul>
+          </div>
+          <div class="lang-content lang-ar" dir="rtl">
+            <p>حاليًا في منشأة رعاية تركية تتلقى:</p>
+            <ul style="margin-right: 1.5rem;">
+              <li>رعاية تمريضية أساسية</li>
+              <li>تغذية عبر أنبوب</li>
+              <li>لا يوجد إعادة تأهيل متخصص</li>
+              <li>إشراف طبي محدود</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="medical-card">
+          <h3><i class="fas fa-heartbeat"></i> <span class="lang-content lang-en active">Needed Treatment</span><span class="lang-content lang-ar" dir="rtl">العلاج المطلوب</span></h3>
+          <div class="lang-content lang-en active">
+            <p>Urgently requires:</p>
+            <ul style="margin-left: 1.5rem;">
+              <li>Medical repatriation to Morocco</li>
+              <li>Neurological rehabilitation</li>
+              <li>Physical therapy</li>
+              <li>Speech therapy</li>
+              <li>Specialized nursing care</li>
+            </ul>
+          </div>
+          <div class="lang-content lang-ar" dir="rtl">
+            <p>تحتاج بشكل عاجل إلى:</p>
+            <ul style="margin-right: 1.5rem;">
+              <li>إعادة طبية إلى المغرب</li>
+              <li>إعادة تأهيل عصبي</li>
+              <li>علاج طبيعي</li>
+              <li>علاج النطق</li>
+              <li>رعاية تمريضية متخصصة</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <section class="timeline-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="lang-content lang-en active">Journey So Far</h2>
+        <h2 class="lang-content lang-ar" dir="rtl">رحلة حتى الآن</h2>
+        <p class="lang-content lang-en active">Key events in Atika's medical journey</p>
+        <p class="lang-content lang-ar" dir="rtl">أحداث رئيسية في رحلة عتيقة الطبية</p>
+      </div>
+      
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date lang-content lang-en active">August 2023</div>
+          <div class="timeline-date lang-content lang-ar" dir="rtl">أغسطس 2023</div>
+          <div class="timeline-content">
+            <div class="lang-content lang-en active">
+              <p><strong>Brain hemorrhage</strong> while visiting Turkey. Emergency surgery performed to relieve pressure on brain.</p>
+            </div>
+            <div class="lang-content lang-ar" dir="rtl">
+              <p><strong>نزيف دماغي</strong> أثناء الزيارة في تركيا. أجريت جراحة طارئة لتخفيف الضغط على الدماغ.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date lang-content lang-en active">September 2023</div>
+          <div class="timeline-date lang-content lang-ar" dir="rtl">سبتمبر 2023</div>
+          <div class="timeline-content">
+            <div class="lang-content lang-en active">
+              <p><strong>Woke from coma</strong> with significant neurological impairments. Transferred to long-term care facility.</p>
+            </div>
+            <div class="lang-content lang-ar" dir="rtl">
+              <p><strong>استيقظت من الغيبوبة</strong> مع ضعف عصبي كبير. نقلت إلى منشأة رعاية طويلة الأجل.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date lang-content lang-en active">November 2023</div>
+          <div class="timeline-date lang-content lang-ar" dir="rtl">نوفمبر 2023</div>
+          <div class="timeline-content">
+            <div class="lang-content lang-en active">
+              <p><strong>Family visits Turkey</strong> after months of bureaucratic delays. Confirms Atika is receiving minimal care.</p>
+            </div>
+            <div class="lang-content lang-ar" dir="rtl">
+              <p><strong>زيارة العائلة لتركيا</strong> بعد شهور من التأخير البيروقراطي. التأكد من أن عتيقة تتلقى الحد الأدنى من الرعاية.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-date lang-content lang-en active">Present</div>
+          <div class="timeline-date lang-content lang-ar" dir="rtl">الحاضر</div>
+          <div class="timeline-content">
+            <div class="lang-content lang-en active">
+              <p><strong>Fundraising campaign launched</strong> to cover medical repatriation and rehabilitation costs in Morocco.</p>
+            </div>
+            <div class="lang-content lang-ar" dir="rtl">
+              <p><strong>إطلاق حملة التبرعات</strong> لتغطية تكاليف الإعادة الطبية وإعادة التأهيل في المغرب.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before/After Gallery -->
+  <section class="gallery-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="lang-content lang-en active">Atika's Journey in Photos</h2>
+        <h2 class="lang-content lang-ar" dir="rtl">رحلة عتيقة في الصور</h2>
+      </div>
+      
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2023-09-21 at 22.07.52.jpg" alt="Atika before her illness" loading="lazy">
+          <div class="gallery-caption lang-content lang-en active">Atika before her illness</div>
+          <div class="gallery-caption lang-content lang-ar" dir="rtl">عتيقة قبل مرضها</div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-06-07 at 00.42.32_bed2a020.jpg" alt="Atika in hospital" loading="lazy">
+          <div class="gallery-caption lang-content lang-en active">After brain surgery</div>
+          <div class="gallery-caption lang-content lang-ar" dir="rtl">بعد جراحة الدماغ</div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-07-25 at 13.15.21_f34196d0.jpg" alt="Current care facility" loading="lazy">
+          <div class="gallery-caption lang-content lang-en active">Current care facility</div>
+          <div class="gallery-caption lang-content lang-ar" dir="rtl">منشأة الرعاية الحالية</div>
+        </div>
+        
+        <div class="gallery-item">
+          <img src="WhatsApp Image 2025-07-26 at 20.27.22_441ba103.jpg" alt="Video call with family" loading="lazy">
+          <div class="gallery-caption lang-content lang-en active">Video call with family</div>
+          <div class="gallery-caption lang-content lang-ar" dir="rtl">مكالمة فيديو مع العائلة</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Documents -->
+  <section class="documents-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="lang-content lang-en active">Medical Documentation</h2>
+        <h2 class="lang-content lang-ar" dir="rtl">الوثائق الطبية</h2>
+        <p class="lang-content lang-en active">Official records verifying Atika's condition</p>
+        <p class="lang-content lang-ar" dir="rtl">سجلات رسمية تتحقق من حالة عتيقة</p>
+      </div>
+      
+      <div class="documents-grid">
+        <div class="document-card">
+          <img src="WhatsApp Image 2025-06-07 at 00.34.03_3c820a84.jpg" alt="Hospital medical record" loading="lazy">
+          <div class="document-info">
+            <h3 class="lang-content lang-en active">Hospital Medical Record</h3>
+            <h3 class="lang-content lang-ar" dir="rtl">السجل الطبي بالمستشفى</h3>
+            <p class="lang-content lang-en active">Diagnosis and treatment details</p>
+            <p class="lang-content lang-ar" dir="rtl">تفاصيل التشخيص والعلاج</p>
+          </div>
+        </div>
+        
+        <div class="document-card">
+          <img src="WhatsApp Image 2025-06-07 at 00.33.49_396db296.jpg" alt="Patient information" loading="lazy">
+          <div class="document-info">
+            <h3 class="lang-content lang-en active">Patient Information</h3>
+            <h3 class="lang-content lang-ar" dir="rtl">معلومات المريض</h3>
+            <p class="lang-content lang-en active">Official hospital records</p>
+            <p class="lang-content lang-ar" dir="rtl">سجلات المستشفى الرسمية</p>
+          </div>
+        </div>
+        
+        <div class="document-card">
+          <img src="WhatsApp Image 2025-06-09 at 00.39.46_934e2d6e.jpg" alt="Ministry correspondence" loading="lazy">
+          <div class="document-info">
+            <h3 class="lang-content lang-en active">Ministry Correspondence</h3>
+            <h3 class="lang-content lang-ar" dir="rtl">مراسلات الوزارة</h3>
+            <p class="lang-content lang-en active">Official communications</p>
+            <p class="lang-content lang-ar" dir="rtl">مراسلات رسمية</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donation Section -->
+  <section class="donation-section" id="donate">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="lang-content lang-en active">How You Can Help</h2>
+        <h2 class="lang-content lang-ar" dir="rtl">كيف يمكنك المساعدة</h2>
+        <p class="lang-content lang-en active">Every contribution brings Atika closer to home</p>
+        <p class="lang-content lang-ar" dir="rtl">كل مساعدة تقرب عتيقة من المنزل</p>
+      </div>
+      
+      <div class="donation-options">
+        <!-- PayPal Option -->
+        <div class="donation-card">
+          <h3 class="lang-content lang-en active">PayPal</h3>
+          <h3 class="lang-content lang-ar" dir="rtl">باي بال</h3>
+          
+          <img src="https://www.paypalobjects.com/webstatic/mktg/logo/pp_cc_mark_37x23.jpg" alt="PayPal" loading="lazy">
+          
+          <p class="lang-content lang-en active">Secure online donations with credit/debit card</p>
+          <p class="lang-content lang-ar" dir="rtl">تبرع آمن عبر الإنترنت ببطاقة الائتمان/الخصم</p>
+          
+          <div class="mt-2">
+            <a href="https://www.paypal.me/KhailTrevor" target="_blank" class="btn btn-paypal lang-content lang-en active">Donate via PayPal</a>
+            <a href="https://www.paypal.me/KhailTrevor" target="_blank" class="btn btn-paypal lang-content lang-ar" dir="rtl">تبرع عبر باي بال</a>
+          </div>
+        </div>
+        
+        <!-- Bank Transfer -->
+        <div class="donation-card">
+          <h3 class="lang-content lang-en active">Bank Transfer</h3>
+          <h3 class="lang-content lang-ar" dir="rtl">حوالة بنكية</h3>
+          
+          <img src="https://upload.wikimedia.org/wikipedia/fr/b/b2/Logo_CIH.png" alt="CIH Bank" loading="lazy" style="max-height: 60px;">
+          
+          <div class="donation-details">
+            <p><strong class="lang-content lang-en active">Account Holder:</strong><strong class="lang-content lang-ar" dir="rtl">صاحب الحساب:</strong> KHALID ELHADDADI</p>
+            <p><strong class="lang-content lang-en active">RIB:</strong><strong class="lang-content lang-ar" dir="rtl">:</strong> 230 374 4983191211024200 73</p>
+            <p><strong class="lang-content lang-en active">IBAN:</strong><strong class="lang-content lang-ar" dir="rtl">:</strong> MA64 2303 7449 8319 1211 0242 0073</p>
+            <p><strong class="lang-content lang-en active">SWIFT:</strong><strong class="lang-content lang-ar" dir="rtl">:</strong> CIHMMAMC</p>
+          </div>
+        </div>
+        
+        <!-- Money Transfer -->
+        <div class="donation-card">
+          <h3 class="lang-content lang-en active">Money Transfer</h3>
+          <h3 class="lang-content lang-ar" dir="rtl">تحويل الأموال</h3>
+          
+          <div style="display: flex; justify-content: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <img src="https://upload.wikimedia.org/wikipedia/ar/7/7e/%D8%B4%D8%B9%D8%A7%D8%B1_%D9%88%D9%81%D8%A7%D9%83%D8%A7%D8%B4.png" alt="Wafacash" style="height: 40px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Western_Union_current_logo.svg" alt="Western Union" style="height: 40px;">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/MoneyGram_Logo.svg" alt="MoneyGram" style="height: 40px;">
+          </div>
+          
+          <div class="donation-details">
+            <p><strong class="lang-content lang-en active">Recipient:</strong><strong class="lang-content lang-ar" dir="rtl">المستفيد:</strong> Khalid Elhaddadi</p>
+            <p><strong class="lang-content lang-en active">CIN:</strong><strong class="lang-content lang-ar" dir="rtl">رقم البطاقة:</strong> XA135539</p>
+            <p><strong class="lang-content lang-en active">Location:</strong><strong class="lang-content lang-ar" dir="rtl">المكان:</strong> Tiflet, Morocco</p>
+            <p><strong class="lang-content lang-en active">Phone:</strong><strong class="lang-content lang-ar" dir="rtl">الهاتف:</strong> +212 706641878</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-4">
+        <p class="lang-content lang-en active">After donating, please send receipt via WhatsApp for tracking:</p>
+        <p class="lang-content lang-ar" dir="rtl">بعد التبرع، يرجى إرسال الإيصال عبر واتساب للتتبع:</p>
+        
+        <div class="mt-2">
+          <a href="https://wa.me/212706641878" target="_blank" class="btn btn-whatsapp lang-content lang-en active">
+            <i class="fab fa-whatsapp"></i> Send Receipt
+          </a>
+          <a href="https://wa.me/212706641878" target="_blank" class="btn btn-whatsapp lang-content lang-ar" dir="rtl">
+            <i class="fab fa-whatsapp"></i> إرسال الإيصال
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Progress -->
+  <section>
+    <div class="container">
+      <div class="progress-container">
+        <div class="progress-stats">
+          <div class="progress-amount">0.00 MAD</div>
+          <div class="progress-goal lang-content lang-en active">Goal: 300,000 MAD</div>
+          <div class="progress-goal lang-content lang-ar" dir="rtl">الهدف: 300,000 درهم</div>
+        </div>
+        
+        <div class="progress-bar-container">
+          <div class="progress-bar" data-progress="0%"></div>
+        </div>
+        
+        <p class="progress-note lang-content lang-en active">Funds will be used for medical repatriation, rehabilitation, and ongoing care</p>
+        <p class="progress-note lang-content lang-ar" dir="rtl">سيتم استخدام الأموال للإعادة الطبية وإعادة التأهيل والرعاية المستمرة</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Support -->
+  <section style="background-color: var(--white);">
+    <div class="container text-center">
+      <h2 class="lang-content lang-en active">Messages of Support</h2>
+      <h2 class="lang-content lang-ar" dir="rtl">رسائل الدعم</h2>
+      
+      <p class="lang-content lang-en active">Your words of encouragement mean the world to us</p>
+      <p class="lang-content lang-ar" dir="rtl">كلماتكم المشجعة تعني الكثير لنا</p>
+      
+      <div class="mt-3">
+        <a href="https://wa.me/212706641878" target="_blank" class="btn btn-secondary btn-lg lang-content lang-en active">
+          <i class="fas fa-comment-dots"></i> Send a Message
+        </a>
+        <a href="https://wa.me/212706641878" target="_blank" class="btn btn-secondary btn-lg lang-content lang-ar" dir="rtl">
+          <i class="fas fa-comment-dots"></i> إرسال رسالة
+        </a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- Sticky WhatsApp -->
+<a href="https://wa.me/212706641878" target="_blank" class="sticky-whatsapp" aria-label="Contact on WhatsApp">
+  <i class="fab fa-whatsapp"></i>
+</a>
+
+<footer>
+  <div class="footer-content">
+    <div class="footer-links">
+      <a href="#main-content" class="lang-content lang-en active">Home</a>
+      <a href="#main-content" class="lang-content lang-ar" dir="rtl">الرئيسية</a>
+      
+      <a href="#medical" class="lang-content lang-en active">Medical Details</a>
+      <a href="#medical" class="lang-content lang-ar" dir="rtl">التفاصيل الطبية</a>
+      
+      <a href="#donate" class="lang-content lang-en active">Donate</a>
+      <a href="#donate" class="lang-content lang-ar" dir="rtl">تبرع</a>
+    </div>
+    
+    <p class="copyright lang-content lang-en active">&copy; 2025 Help Atika. All donations go directly to Atika's medical fund.</p>
+    <p class="copyright lang-content lang-ar" dir="rtl">&copy; 2025 ساعدوا عتيقة. جميع التبرعات تذهب مباشرة إلى الصندوق الطبي لعتيقة.</p>
+  </div>
+</footer>
+
+<script>
+  // Language Toggle
+  document.addEventListener('DOMContentLoaded', function() {
+    const langButtons = document.querySelectorAll('.lang-btn');
+    const langContents = document.querySelectorAll('.lang-content');
+    
+    function setLanguage(lang) {
+      // Update button states
+      langButtons.forEach(btn => {
+        btn.classList.toggle('active', btn.getAttribute('data-lang') === lang);
+      });
+      
+      // Update content visibility
+      langContents.forEach(content => {
+        content.classList.toggle('active', content.classList.contains(`lang-${lang}`));
+      });
+      
+      // Update document direction
+      document.documentElement.dir = lang === 'ar' ? 'rtl' : 'ltr';
+      
+      // Save preference
+      localStorage.setItem('preferredLang', lang);
+    }
+    
+    // Button click events
+    langButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const lang = btn.getAttribute('data-lang');
+        setLanguage(lang);
+      });
+    });
+    
+    // Load saved language or default to English
+    const savedLang = localStorage.getItem('preferredLang') || 'en';
+    setLanguage(savedLang);
+    
+    // Initialize progress bar
+    const currentAmount = 0; // Update this manually
+    const goalAmount = 250000;
+    const progressPercent = Math.min((currentAmount / goalAmount) * 100, 100);
+    const progressBar = document.querySelector('.progress-bar');
+    progressBar.style.width = `${progressPercent}%`;
+    progressBar.setAttribute('data-progress', `${Math.round(progressPercent)}%`);
+    
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
